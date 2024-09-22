@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Rowspan, Colspan, and Background Image</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-image: url('https://via.placeholder.com/800x400'); /* Replace with your background image URL */
+            background-size: cover;
+        }
+        th, td {
+            border: 2px solid #000;
+            padding: 10px;
+            text-align: center;
+            color: #fff; /* Adjust text color for contrast */
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+        }
+        th {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table with Rowspan, Colspan, and Background Image</h1>
+    <table>
+        <caption>Sample Table</caption>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Rowspan</td>
+            <td colspan="2">Colspan</td>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+            <td>Cell 5</td>
+        </tr>
+    </table>
+</body>
+</html>

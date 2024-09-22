@@ -1,0 +1,62 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main{
+    margin-top: 50px;
+}
+#first {
+    display: flex;
+    justify-content: center;
+}
+
+#second {
+    display: flex;
+    justify-content: center;
+}
+
+#third {
+    display: flex;
+    justify-content: center;
+}
+
+#body {
+    margin: 50px auto;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+
+.cards {
+    border: 2px solid rgba(0, 0, 0, 0.163);
+    box-shadow:  4px 6px 12px rgba(0, 0, 0, 0.164);
+    /* box-shadow:  -4px -6px 10px rgba(0, 0, 0, 0.253); */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+
+}
+
+.image {
+    border: 2px solid rgba(0, 0, 0, 0.163);
+    border-radius: 12px;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+h4{
+    font-weight: lighter;
+}
+#image2{
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 0, 0.163);
+    box-shadow:  4px 6px 12px rgba(0, 0, 0, 0.41);
+    margin-left: 40px;
+    height: 300px;
+    width: 350px;
+}

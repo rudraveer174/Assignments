@@ -1,0 +1,159 @@
+#header {
+    background-color: rgb(251, 250, 245);
+    height: 120px;
+    width: 100%;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.56);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#image {
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 60px;
+    width: 300px;
+}
+
+nav {
+    display: inline-flex;
+}
+
+#home {
+    color: red;
+}
+
+.sec {
+    margin-left: 80px;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: inline-flex;
+}
+
+#DonateBTN {
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+#donate {
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
+
+#donate:hover {
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.185);
+}
+
+#image1 {
+    height: 700px;
+    width: 100%;
+}
+
+body {
+    background-image: url("WhatsApp\ Image\ 2024-08-07\ at\ 14.08.40_3315bb67.jpg");
+    filter: grayscale(15%) sepia(7%) brightness(79%) saturate(195%) contrast(133%);
+    -webkit-filter: grayscale(15%) sepia(7%) brightness(79%) saturate(195%) contrast(133%);
+    -moz-filter: grayscale(15%) sepia(7%) brightness(79%) saturate(195%) contrast(133%);
+}
+
+#main1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 220px;
+    color: white;
+    justify-content: right;
+    display: flex;
+    margin-right: 130px;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#text2 {
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    justify-content: right;
+    display: flex;
+    margin-right: 240px;
+}
+
+#sec1 {
+    margin-top: 20px;
+    justify-content: right;
+    display: flex;
+    margin-right: 360px;
+}
+
+#whatWD {
+    color: white;
+    border-radius: 4px;
+    border: 3px solid white;
+    background-color: rgba(240, 248, 255, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.185);
+
+}
+
+footer {
+    margin-top: 300px;
+    background-color: rgb(251, 250, 245);
+    height: 120px;
+    width: 100%;
+
+}
+
+#footerSec {
+    letter-spacing: 1px;
+    padding-left: 50px;
+    padding-top: 22px;
+    display: inline-flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bottomh1 {
+    font-size: 30px;
+}
+
+#bottom {
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
+#email {
+    border: 2px solid rgba(0, 0, 0, 0.129);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+
+#subscribe {
+    background-color: rgba(0, 85, 255, 0.699);
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+#subscribe:hover {
+    background-color: rgba(255, 0, 0, 0.681);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.185);
+}

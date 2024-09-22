@@ -1,0 +1,115 @@
+#head {
+    padding-top: 20px;
+    background-color: #3b5998;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#email {
+    color: aliceblue;
+}
+
+#pass {
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.emailpass {
+    border-radius: 1px solid rgba(128, 128, 128, 0.485);
+}
+
+#login {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: aliceblue;
+    border: 1px solid rgb(28, 28, 109);
+    background-color: rgb(28, 28, 109);
+    margin-left: 10px;
+    margin-top: 17px;
+}
+
+.input0 {
+    padding-right: 30px;
+    padding-left: 5px;
+    padding-top: 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(197, 197, 197, 0.755);
+    margin-top: 10px;
+    padding-bottom: 8px;
+}
+
+.inputs1 {
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-top: 8px;
+    border: 1px solid rgba(197, 197, 197, 0.755);
+    margin-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 233px;
+}
+
+#body1 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 530px;
+}
+
+#Birthday {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline;
+}
+
+#mf {
+    margin-top: 10px;
+}
+
+#account {
+    border-radius: 6px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    background-color: green;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#terms {
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: rgb(227, 225, 225);
+}
+
+.inputs {
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+#date {
+    border-radius: 4px;
+    border: 1px solid rgba(197, 197, 197, 0.755);
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#bottom {
+    box-shadow: 0px -4px 16px rgba(0, 0, 0, 0.237);
+    margin-top: 40px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
